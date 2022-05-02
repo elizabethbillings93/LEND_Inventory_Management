@@ -1,1 +1,1 @@
-# LEND_Point_Of_Sale
+# LEND_Inventory_Management
