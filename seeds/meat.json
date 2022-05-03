@@ -1,23 +1,47 @@
 [
-	{	
+	{
 		"name": "Beef",
-		"quantity": 10 ,
+		"quantity": 10,
 		"product_id": 2
 	},
-	{		
+	{	
 		"name": "chicken",
-		"quantity": 8,
+		"quantity": 10,
 		"product_id": 2
     },
-	
-	{		
+	{	
 		"name": "fish",
-		"quantity": 9 ,
+		"quantity": 10,
+		"product_id": 2
+	},
+	{	
+		"name": "pork",
+		"quantity": 10,
 		"product_id": 2
 	},
 	{		
-		"name": "pork",
-		"quantity": 14,
+		"name": "Goat",
+		"quantity": 10,
+		"product_id": 2
+	},
+	{	
+		"name": "Venison",
+		"quantity": 10,
+		"product_id": 2
+	},
+	{	
+		"name": "Turkey",
+		"quantity": 10,
+		"product_id": 2
+	},
+	{	
+		"name": "Duck",
+		"quantity": 10,
+		"product_id": 2
+	},
+	{	
+		"name": "Rabbit",
+		"quantity": 10,
 		"product_id": 2
 	}
 ]
