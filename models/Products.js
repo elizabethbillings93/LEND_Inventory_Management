@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Employee extends Model {}; 
+class Products extends Model {}; 
 
-Employee.init(
+Products.init(
     {
     
         id: {
@@ -12,28 +12,20 @@ Employee.init(
             allowNull: false,
             autoIncrement: true,
         },
-        first_name: {
+        name: {
             type: DataTypes.STRING,
             allowNull: false
         },
-        last_name: {
+
+        // TODO  - I think we need something to reference
+        product_id: {
             type: DataTypes.STRING,
-            allowNull: false,
+            references: ''
+
         },
-        manager_id: {
+        quantity: {
             type: DataTypes.INTEGER,
             allowNull: false,            
-        },
-        email: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
-        phone_number: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            validate:{
-                leng: [10],
-            },
         },
     }, 
     {
@@ -41,8 +33,8 @@ Employee.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'employee'
+        modelName: 'products'
     }
 );
 
-module.exports = Employee;
+module.exports = Products;
