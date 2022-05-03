@@ -1,25 +1,50 @@
 [
 	{
-		"id": "31",
+		
 		"name": "Beef",
-		"quantity": "INT"
+		"quantity": "10"
 	},
 	{
-			"id": "32",
+			
 			"name": "chicken",
-			"quantity": "INT"
+			"quantity": "10"
     },
 	
 	{
-			"id": "33",
+			
 			"name": "fish",
-			"quantity": "INT"
+			"quantity": "10"
 	},
 	
 	{
-			"id": "34",
+			
 			"name": "pork",
-			"quantity": "INT"
+			"quantity": "10"
+	},
+	{
+			
+		"name": "Goat",
+		"quantity": "10"
+	},
+	{
+			
+		"name": "Venison",
+		"quantity": "10"
+	},
+	{
+			
+		"name": "Turkey",
+		"quantity": "10"
+	},
+	{
+			
+		"name": "Duck",
+		"quantity": "10"
+	},
+	{
+			
+		"name": "Rabbit",
+		"quantity": "10"
 	}
 	
 ]

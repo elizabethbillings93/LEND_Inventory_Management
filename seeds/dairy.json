@@ -1,26 +1,56 @@
 [
 	{
-		"id": "",
-		"name": "",
-		"quantity": "INT"
+		
+		"name": "Milk",
+		"quantity": "10"
 	},
 	
 		{
-			"id": "",
-			"name": "",
-			"quantity": "INT"
+			
+			"name": "Cheese",
+			"quantity": "10"
 		},
 	
 		{
-			"id": "",
-			"name": "",
-			"quantity": "INT"
+			
+			"name": "Yogurt",
+			"quantity": "10"
 		},
 	
 		{
-			"id": "",
-			"name": "",
-			"quantity": "INT"
+			
+			"name": "Butter",
+			"quantity": "10"
+		},
+		{
+			
+			"name": "Ice cream",
+			"quantity": "10"
+		},
+		{
+			
+			"name": "Cream",
+			"quantity": "10"
+		},
+		{
+			
+			"name": "Cottage Cheese",
+			"quantity": "10"
+		},
+		{
+			
+			"name": "Whipped Cream",
+			"quantity": "10"
+		},
+		{
+			
+			"name": "Condensed Milk",
+			"quantity": "10"
+		},
+		{
+			
+			"name": "Eggnog",
+			"quantity": "10"
 		}
 	
 ]
