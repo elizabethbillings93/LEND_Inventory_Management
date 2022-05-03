@@ -1,26 +1,22 @@
 [
 	{
-		"id": "",
-		"name": "",
-		"quantity": "INT"
+		"name": "Pop Tarts",
+		"quantity": 7 ,
+		"product_id": 4
 	},
-	
-		{
-			"id": "",
-			"name": "",
-			"quantity": "INT"
-		},
-	
-		{
-			"id": "",
-			"name": "",
-			"quantity": "INT"
-		},
-	
-		{
-			"id": "",
-			"name": "",
-			"quantity": "INT"
-		}
-	
+	{
+		"name": "Oat Meal",
+		"quantity": 15 ,
+		"product_id": 4
+	},
+	{
+		"name": "Rice",
+		"quantity": 7 ,
+		"product_id": 4
+	},
+	{
+		"name": "Tuna",
+		"quantity": 7 ,
+		"product_id": 4
+	}
 ]

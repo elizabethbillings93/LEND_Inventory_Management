@@ -1,25 +1,23 @@
 [
-	{
-		"id": "31",
+	{	
 		"name": "Beef",
-		"quantity": "INT"
+		"quantity": 10 ,
+		"product_id": 2
 	},
-	{
-			"id": "32",
-			"name": "chicken",
-			"quantity": "INT"
+	{		
+		"name": "chicken",
+		"quantity": 8,
+		"product_id": 2
     },
 	
-	{
-			"id": "33",
-			"name": "fish",
-			"quantity": "INT"
+	{		
+		"name": "fish",
+		"quantity": 9 ,
+		"product_id": 2
 	},
-	
-	{
-			"id": "34",
-			"name": "pork",
-			"quantity": "INT"
+	{		
+		"name": "pork",
+		"quantity": 14,
+		"product_id": 2
 	}
-	
 ]

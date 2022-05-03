@@ -1,26 +1,22 @@
 [
 	{
-		"id": "",
-		"name": "",
-		"quantity": "INT"
+		"name": "Cheese",
+		"quantity": 7 ,
+		"product_id": 3
 	},
-	
-		{
-			"id": "",
-			"name": "",
-			"quantity": "INT"
-		},
-	
-		{
-			"id": "",
-			"name": "",
-			"quantity": "INT"
-		},
-	
-		{
-			"id": "",
-			"name": "",
-			"quantity": "INT"
-		}
-	
+	{
+		"name": "Whole Milk",
+		"quantity": 15 ,
+		"product_id": 3
+	},
+	{
+		"name": "2% Milk",
+		"quantity": 7 ,
+		"product_id": 3
+	},
+	{
+		"name": "Cream Cheese",
+		"quantity": 7 ,
+		"product_id": 3
+	}
 ]

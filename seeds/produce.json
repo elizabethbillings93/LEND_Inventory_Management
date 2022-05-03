@@ -1,26 +1,23 @@
 [
 	{
-		"id": "11",
 		"name": "Zucchini",
-		"quantity": "INT"
+		"quantity": 10,
+		"product_id": 1
 	},
-	
 	{
-			"id": "12",
-			"name": "Lettuce",
-			"quantity": "INT"
-		},
-	
+		"name": "Lettuce",
+		"quantity": 8,
+		"product_id": 1
+	},
 	{
-			"id": "13",
-			"name": "Tomato",
-			"quantity": "INT"
-		},
-	
+		"name": "Tomato",
+		"quantity": 12,
+		"product_id": 1
+	},
 	{
-			"id": "14",
-			"name": "Eggplant",
-			"quantity": "INT"
-		}
+		"name": "Eggplant",
+		"quantity": 5,
+		"product_id": 1
+	}
 	
 ]

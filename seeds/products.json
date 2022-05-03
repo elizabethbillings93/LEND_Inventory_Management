@@ -1,30 +1,14 @@
 [
 	{
-		"id": "10",
-		"name": "produce",
-		"product_id": "INT",
-		"quantity": "INT"
+		"name": "Produce"
 	},
-	
-		{
-			"id": "20",
-			"name": "Meat",
-			"product_id": "INT",
-			"quantity": "INT"
-		},
-	
-		{
-			"id": "30",
-			"name": "Dairy",
-			"product_id": "INT",
-			"quantity": "INT"
-		},
-	
-		{
-			"id": "40",
-			"name": "Pantry",
-			"product_id": "INT",
-			"quantity": "INT"
-		}
-	
+	{
+		"name": "Meat"
+	},
+	{
+		"name": "Dairy"
+	},
+	{
+		"name": "Pantry"
+	}
 ]
