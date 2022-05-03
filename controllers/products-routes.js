@@ -4,7 +4,7 @@ const path = require ('path');
 
 console.log('Working');
 router.get('/', async(req,res) => {
-    res.render('main');
+    res.render('login');
     
 });
 

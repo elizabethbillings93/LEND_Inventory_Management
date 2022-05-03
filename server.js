@@ -13,10 +13,18 @@ app.set ('view engine', 'handlebars');
 // set port
 app.set ('port', (process.env.PORT || 3001));
 
+// NEED TO BUILD ROUTE FOR ONBOARD/LOGIN:::::
+// app.use (express.static(path.join(__dirname,'public')));
+// app.get('/', function(req,res){
+//   res.render('onboard');
+// })
+
+
 app.use (express.static('public'));
 app.get('/', function(req,res){
-  res.render('onboard');
+  res.render('main');
 })
+
 app.listen(app.get ('port'), function (){
-  console.log ('Server is listening at ' + app.get('Port'))
+  console.log ('Server is listening')
 })

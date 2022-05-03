@@ -25,17 +25,121 @@ body{
 }
 .employee-box{
     background-color: #F0F2F3;
+    position:absolute;
     border: solid #71B1C5 10px;
     margin: 10px;
     padding: 2px;
+    padding-right: 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .product-items{
-    padding-top:50px;
+    padding-top:80px;
     padding-bottom: 20px;
     display:flex;
     justify-content: space-evenly;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
-.produce-box{
+ .produce-box{
+    border:solid #103050 6px;
+    border-radius: 5px;
+    padding:30px;
+} 
+ .meats-box{
+    border:solid #103050 6px;
+    border-radius:5px;
+    padding:30px;
+} 
+ .dairy-box{
+    border:solid #103050 6px;
+    border-radius: 5px;
+    padding:30px;
+} 
+.pantry-box{
+    border:solid #103050 6px;
+    padding:30px;
+    
+}
+.main-box input{
+    size: 30px 30 30;
+    background-color: rgb(231, 231, 231);
+    align-items: right;
+}
+.product-items img{
     border:solid black;
+    
+}
+#produce1{
+    display:flex;
+    padding-bottom: 10px;
+}
+#produce2{
+    display:flex;
+    padding-bottom: 10px
+}
+#produce3{
+    display:flex;
+    padding-bottom: 10px
+}
+#produce4{
+    display:flex;
+    padding-bottom: 10px
+}
+
+#meats1{
+    display:flex;
+    padding-bottom: 10px
+}
+#meats2{
+    display:flex;
+    padding-bottom: 10px
+}
+#meats3{
+    display:flex;
+    padding-bottom: 10px
+}
+#meats4{
+    display:flex;
+    padding-bottom: 10px
+}
+#pantry1{
+    display:flex;
+    padding-bottom: 10px
+}
+#pantry2{
+    display:flex;
+    padding-bottom: 10px
+}
+#pantry3{
+    display:flex;
+    padding-bottom: 10px
+}
+#pantry4{
+    display:flex;
+    padding-bottom: 10px
+}
+#dairy1{
+    display:flex;
+    padding-bottom: 10px
+}
+#dairy2{
+    display:flex;
+    padding-bottom: 10px
+}
+#dairy3{
+    display:flex;
+    padding-bottom: 10px
+}
+#dairy4{
+    display:flex;
+    padding-bottom: 10px
+}
+.onboardform{
+    
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.onboardform input{
+    padding-right: 50px;
 }
