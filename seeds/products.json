@@ -4,28 +4,28 @@
 		
 		"name": "produce",
 		"product_id": "1",
-		"quantity": "40"
+		"quantity": "410"
 	},
 	
 		{
 			
 			"name": "Meat",
 			"product_id": "2",
-			"quantity": "40"
+			"quantity": "90"
 		},
 	
 		{
 			
 			"name": "Dairy",
 			"product_id": "3",
-			"quantity": "40"
+			"quantity": "100"
 		},
 	
 		{
 			
 			"name": "Pantry",
 			"product_id": "4",
-			"quantity": "40"
+			"quantity": "80"
 		}
 	
 ]
