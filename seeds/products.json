@@ -1,11 +1,9 @@
 
 [
 	{
-		
-		"name": "produce",
-		"product_id": "1",
-		"quantity": "40"
+		"name": "Produce"
 	},
+
 	
 		{
 			
@@ -29,4 +27,15 @@
 			"quantity": "40"
 		}
 	
+=======
+	{
+		"name": "Meat"
+	},
+	{
+		"name": "Dairy"
+	},
+	{
+		"name": "Pantry"
+	}
+
 ]
