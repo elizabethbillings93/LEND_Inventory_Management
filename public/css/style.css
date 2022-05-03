@@ -58,7 +58,7 @@ body{
 .pantry-box{
     border:solid #103050 6px;
     padding:30px;
-    border-radius: 5px;
+    
 }
 .main-box input{
     size: 30px 30 30;
@@ -133,4 +133,13 @@ body{
 #dairy4{
     display:flex;
     padding-bottom: 10px
+}
+.onboardform{
+    
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.onboardform input{
+    padding-right: 50px;
 }

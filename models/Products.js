@@ -16,7 +16,10 @@ Products.init(
             type: DataTypes.STRING,
             allowNull: false
         },
-
+        image_link:{
+            type:DataTypes.STRING,
+            allowNull:false
+        },
         // TODO  - I think we need something to reference
         product_id: {
             type: DataTypes.STRING,
