@@ -16,5 +16,5 @@ app.get('/', function(req,res){
   res.render('onboard');
 })
 app.listen(app.get ('port'), function (){
-  console.log ('Server is listening at ' + app.get('Port'))
+  console.log ('Server is listening')
 })
