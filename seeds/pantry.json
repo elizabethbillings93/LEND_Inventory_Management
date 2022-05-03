@@ -1,46 +1,42 @@
 [
 	{
-		
 		"name": "Rice",
-		"quantity": "10"
+		"quantity": 10,
+		"product_id": 4
 	},
-	
-		{
-			
-			"name": "Bread",
-			"quantity": "10"
-		},
-	
-		{
-			
-			"name": "Cereal",
-			"quantity": "10"
-		},
-	
-		{
-			
-			"name": "Coffee",
-			"quantity": "10"
-		},
-		{
-			
-			"name": "Pasta",
-			"quantity": "10"
-		},
-		{
-			
-			"name": "Mixed Nuts",
-			"quantity": "10"
-		},
-		{
-			
-			"name": "Oatmeal",
-			"quantity": "10"
-		},
-		{
-			
-			"name": "Tomato sauce",
-			"quantity": "10"
-		}
-	
+	{	
+		"name": "Bread",
+		"quantity": 10,
+		"product_id": 4
+	},
+	{	
+		"name": "Cereal",
+		"quantity": 10,
+		"product_id": 4
+	},
+	{
+		"name": "Coffee",
+		"quantity": 10,
+		"product_id": 4
+	},
+	{
+		"name": "Pasta",
+		"quantity": 10,
+		"product_id": 4
+	},
+	{	
+		"name": "Mixed Nuts",
+		"quantity": 10,
+		"product_id": 4
+	},
+	{	
+		"name": "Oatmeal",
+		"quantity": 10,
+		"product_id": 4
+	},
+	{		
+		"name": "Tomato sauce",
+		"quantity": 10,
+		"product_id": 4
+	}
 ]
