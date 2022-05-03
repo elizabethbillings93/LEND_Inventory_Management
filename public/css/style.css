@@ -1,0 +1,41 @@
+header{
+    background-color:#71B1C5;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    border:solid white 5px;
+    padding: 10px;
+}
+h1{
+    font-size: 40px;
+    letter-spacing: 20px;
+    color: white;
+}
+h4{
+    color: #103050;
+}
+body{
+    background-color: #F0F2F3;
+}
+.main-box{
+    margin-top: 40px;
+    justify-content: center;
+    border:solid #103050 10px;
+    border-radius: 5px;
+}
+.employee-box{
+    background-color: #F0F2F3;
+    border: solid #71B1C5 10px;
+    margin: 10px;
+    padding: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.product-items{
+    padding-top:50px;
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.produce-box{
+    border:solid black;
+}

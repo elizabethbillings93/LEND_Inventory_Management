@@ -2,30 +2,33 @@
 	{
 		"first_name": "Lamont",
 		"last_name": "last name",
-        "manager_id": "1",
         "email": "stoverlee29@gmail.com",
-        "phone_number": "646100200"
+        "phone_number": "646100200",
+		"password": "Password11"
 	},
 	{
 		"first_name": "Noah",
 		"last_name": "last name",
         "manager_id": "1",
         "email": "noah@gmail.com",
-        "phone_number": "123456789"
+        "phone_number": "123456789",
+		"password": "Password11"
 	},
 	{
 		"first_name": "Elizabeth",
 		"last_name": "lastname",
         "manager_id": "1",
         "email": "elizabeth@gmail.com",
-        "phone_number": "123456789"
+        "phone_number": "123456789",
+		"password": "Password11"
 	},
 	{
-		"name": "David",
+		"first_name": "David",
 		"last_name": "lastname",
         "manager_id": "1",
         "email":"dgardi@gmail.com",
-        "phone_number": "123456789"
+        "phone_number": "123456789",
+		"password": "Password11"
 
 	}
 ]

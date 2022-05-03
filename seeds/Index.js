@@ -1,25 +1,33 @@
 const sequelize = require('../config/connection');
-const { Employee, Products } = require('../models');
+const { Products, Dairy, Employee, Meat, Pantry, Produce } = require('../models');
 
 const productsData = require('./products.json');
+const dairyData = require('./dairy.json');
 const employeeData = require('./employee.json');
+const meatData = require('./meat.json');
+const pantryData = require('./pantry.json');
+const produceData = require('./produce.json');
 
 
 
-const injectData = async () => {
-    await sequelize.sync({force: true})
+const seedDatabase = async () => {
+    await sequelize.sync({ force: true });
+  
+    await Employee.bulkCreate(employeeData, {
+      individualHooks: true,
+      returning: true,
+    });
+  
+    await Products.bulkCreate(productsData);
 
-    const employees = await Employee.bulkCreate(employeeData);
+    await Dairy.bulkCreate(dairyData);
 
-    for (const employee of employeeData) {
-        await Employee.create({
-            ...employee
-        
+    await Meat.bulkCreate(meatData);
 
-        });
-    } 
+    await Pantry.bulkCreate(pantryData);
 
-    process.exit(0);
+    await Produce.bulkCreate(produceData);
+    
 };
 
-injectData();
+seedDatabase();
