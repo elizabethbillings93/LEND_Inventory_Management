@@ -3,6 +3,8 @@ require('dotenv').config();
 
 let sequelize;
 
+//JAWSDB is an add-on for fully functional MySQL Database server for use with Heroku applications. 
+
 if (process.env.JAWSDB_URL) {
   sequelize = new Sequelize(process.env.JAWSDB_URL);
 } else {
