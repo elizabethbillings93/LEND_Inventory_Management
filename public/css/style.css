@@ -28,9 +28,14 @@ body{
     border: solid #71B1C5 10px;
     margin: 10px;
     padding: 2px;
-    justify-content: flexbox;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .product-items{
     padding-top:50px;
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.produce-box{
+    border:solid black;
 }
