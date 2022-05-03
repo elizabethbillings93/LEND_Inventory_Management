@@ -4,10 +4,12 @@ var path = require ('path');
 var exphbs = require('express-handlebars');
 var app = express();
 const hbs = exphbs.create({});
+
 // view folder
 app.set ('views', path.join (__dirname, 'views'));
 app.engine ('handlebars',hbs.engine);
 app.set ('view engine', 'handlebars');
+
 // set port
 app.set ('port', (process.env.PORT || 3001));
 
