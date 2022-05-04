@@ -57,6 +57,12 @@ Employee.init(
         },
     }, 
     {
+        hooks: {
+            beforeCreate: async (newEmployeeData) => {
+              newEmployeeData.password = await bcrypt.hash(newEmployeeData.password, 10);
+              return newEmployeeData;
+            },
+        },
         sequelize,
         timestamps: false,
         freezeTableName: true,
