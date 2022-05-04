@@ -1,8 +1,10 @@
 const { Model, DataTypes } = require('sequelize');
+
 const sequelize = require('../config/connection');
 
 class Products extends Model {}; 
 
+// Fields & Rules for Product model
 Products.init(
     {
         id: {
@@ -11,19 +13,26 @@ Products.init(
             allowNull: false,
             autoIncrement: true,
         },
-        name: {
+        product_name: {
             type: DataTypes.STRING,
             allowNull: false
         },
-
+        quantity: {
+            type: DataTypes.INTEGER,
+            defaultValue: 10,
+            allowNull: false,            
+        },
         image_link:{
             type:DataTypes.STRING,
             allowNull:false
-        },
-        // TODO  - I think we need something to reference
+        },       
         product_id: {
-            type: DataTypes.STRING,
-            references: ''
+            type: DataTypes.INTEGER,
+            allowNull: true,
+            references: {
+                model: 'categories',
+                key: 'id',
+            },
 
         },
         quantity: {
