@@ -1,0 +1,16 @@
+.form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+label{
+    margin-right: 10px;
+}
+button{
+    background-color: #103050;
+    color:white;
+    padding: 10px ;
+    font-size: 20px;
+}
+input{
+    
+}
