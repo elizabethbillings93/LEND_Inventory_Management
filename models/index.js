@@ -1,6 +1,12 @@
-const Products = require('./Products');
-const Categories = require('./Categories');
 const Employee = require('./Employee')
+const Categories = require('./Categories');
+const Products = require('./Products');
+
+
+// Categories have many Products
+Categories.hasMany(Products, {
+    foreignKey: 'category_id'
+});
 
 //Products belongsTo Category
 Products.belongsTo(Categories, {
@@ -8,11 +14,4 @@ Products.belongsTo(Categories, {
     onDelete: 'CASCADE'
 });
 
-// Categories have many Products
-Categories.hasMany(Products, {
-    foreignKey: 'category_id'
-});
-
-
-
-module.exports = {Products, Categories, Employee};
+module.exports = { Products, Categories, Employee };

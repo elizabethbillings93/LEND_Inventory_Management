@@ -1,22 +1,21 @@
 const router = require('express').Router();
-
+const { Employee } = require('../../models');
 
 router.get('/login', (req, res) => {
     res.render('login')  
 })
 
 router.post('/login', async (req, res) =>{
-
     try {
-        const userData = await User.findOne({ where: { email: req.body.email } });
+        const employeeData = await Employee.findOne({ where: { email: req.body.email } });
     
-        if (!userData) {
+        if (!employeeData) {
           res.status(400)
             .json({ message: 'Incorrect email or password, please try again' });
           return;
         }
     
-        const validPassword = await userData.checkPassword(req.body.password);
+        const validPassword = await employeeData.checkPassword(req.body.password);
     
         if (!validPassword) {
           res.status(400)
@@ -25,10 +24,9 @@ router.post('/login', async (req, res) =>{
         }
     
         req.session.save(() => {
-          req.session.user_id = userData.id;
+          req.session.user_id = employeeData.id;
           req.session.logged_in = true;
-          
-          res.json({ user: userData, message: 'Thanks for logging in' });
+          res.json({ employee: employeeData, message: 'Thanks for logging in' });
         });
     
       } catch (err) {
@@ -49,7 +47,7 @@ router.post('/logout', (req, res) => {
 
 
 router.get('/onboard', (req, res) => {
-  console.log('Onboard is working')
+  res.render('onboard')
 });
 
 

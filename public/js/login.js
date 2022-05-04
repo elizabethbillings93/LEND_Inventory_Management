@@ -5,7 +5,7 @@ const login = async (event) => {
     const email = $('#email-login').val();
     const password = $('#password-login').val();
   
-    console.log(email, password);
+   
 
     if (email && password) {
     //   Send a POST request to the API endpoint
@@ -17,10 +17,8 @@ const login = async (event) => {
 
   
       if (response.ok) {
-        // If successful, redirect the browser to the profile page
-        document.location.replace('/onboard');
+        document.location.replace('');
       } else {
-        console.log('red')
         alert(response.statusText);
       }
     } else {
