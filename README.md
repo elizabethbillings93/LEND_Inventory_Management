@@ -4,7 +4,7 @@
   -To create a clean inventory management system that provides security through login functions.
   -The new employee form creates and stores data that gives employees access to change inventory count.
 
-#Table of Contents
+# Table of Contents
  Upon deployment, you are brought to the login page to enter your credentials if you currently have an account. 
 
 -LOGIN PAGE
@@ -22,7 +22,7 @@ Once an account is created, you will be directed to the Inventory Control Page w
 
 
 
-#Built With:
+# Built With:
   -jQuery
   -Mysql2
   -Node
@@ -33,7 +33,7 @@ Once an account is created, you will be directed to the Inventory Control Page w
   -Express
   
   
-  #Credits
+  # Credits
     -Elizabeth Billings (Handlebars, CSS, Javascript) GITHUB: (https://github.com/elizabethbillings93/)
     -Lamont Barnet (schema, seeds)GITHUB: (https://github.com/sirmojosodope)
     -Greg Gardiner(Javascript)GITHUB: (https://github.com/Dgardi)
