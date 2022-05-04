@@ -1,102 +1,31 @@
 [
 	{
 		"name": "Rice",
-
-		"quantity": "10",
-		"product_id": "4",
-		"image_link":"https://www.simplyrecipes.com/thmb/j_IZxLEP2tJjonCl3s7RiGnMuxo=/2000x1331/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2020__02__HTC-White-Rice-Lead-4-e5743ee4c63a40a0aec2f3abd9f1c097.jpg"
-	},
-	
-		{
-			
-			"name": "Bread",
-			"quantity": "10",
-			"product_id": "4",
-			"image_link":"https://merryboosters.com/wp-content/uploads/2020/05/blog-featured-image.png"
-		},
-	
-		{
-			
-			"name": "Cereal",
-			"quantity": "10",
-			"product_id": "4",
-			"image_link":"https://www.verywellhealth.com/thmb/LiEYTC9ZucAPtgIkxivHFQQpXUY=/1333x1000/smart/filters:no_upscale()/30D7A016-ABA5-48DD-BE39-3E7A223A03BF-96f2ba9e6c724dc9b2ba638b0c0f44a2.jpeg"
-		},
-	
-		{
-			
-			"name": "Coffee",
-			"quantity": "10",
-			"product_id": "4",
-			"image_link":"https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg"
-		},
-		{
-			
-			"name": "Pasta",
-			"quantity": "10",
-			"product_id": "4",
-			"image_link":"https://images.albertsons-media.com/is/image/ABS/128200572?$ecom-pdp-desktop$&defaultImage=Not_Available&defaultImage=Not_Available"
-		},
-		{
-			
-			"name": "Mixed Nuts",
-			"quantity": "10",
-			"product_id": "4",
-			"image_link":"https://images.heb.com/is/image/HEBGrocery/002601037"
-		},
-		{
-			
-			"name": "Oatmeal",
-			"quantity": "10",
-			"product_id": "4",
-			"image_link":"https://target.scene7.com/is/image/Target/GUEST_54446ea9-e310-4406-bb82-bb6872c29a70?wid=488&hei=488&fmt=pjpeg"
-		},
-		{
-			
-			"name": "Tomato sauce",
-			"quantity": "10",
-			"product_id": "4",
-			"image_link":"https://images.heb.com/is/image/HEBGrocery/000095047"
-		}
-	
-=======
 		"quantity": 10,
 		"product_id": 4
 	},
-	{	
+	{
+			
 		"name": "Bread",
 		"quantity": 10,
 		"product_id": 4
 	},
-	{	
+	{
+			
 		"name": "Cereal",
 		"quantity": 10,
 		"product_id": 4
 	},
 	{
-		"name": "Coffee",
-		"quantity": 10,
-		"product_id": 4
+			
+			"name": "Coffee",
+			"quantity": 10,
+			"product_id": 4
 	},
 	{
-		"name": "Pasta",
-		"quantity": 10,
-		"product_id": 4
-	},
-	{	
-		"name": "Mixed Nuts",
-		"quantity": 10,
-		"product_id": 4
-	},
-	{	
-		"name": "Oatmeal",
-		"quantity": 10,
-		"product_id": 4
-	},
-	{		
-		"name": "Tomato sauce",
-		"quantity": 10,
-		"product_id": 4
+			
+			"name": "Pasta",
+			"quantity": 10,
+			"product_id": 4
 	}
-
 ]

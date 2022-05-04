@@ -17,8 +17,7 @@ const login = async (event) => {
 
   
       if (response.ok) {
-        // If successful, redirect the browser to the profile page
-        document.location.replace('/onboard');
+        alert("working")
       } else {
         console.log('red')
         alert(response.statusText);

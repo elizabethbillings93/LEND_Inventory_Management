@@ -18,15 +18,15 @@ const seedDatabase = async () => {
       returning: true,
     });
   
-    await Products.bulkCreate(productsData);
+    // await Products.bulkCreate(productsData);
 
-    await Dairy.bulkCreate(dairyData);
+    // await Dairy.bulkCreate(dairyData);
 
-    await Meat.bulkCreate(meatData);
+    // await Meat.bulkCreate(meatData);
 
-    await Pantry.bulkCreate(pantryData);
+    // await Pantry.bulkCreate(pantryData);
 
-    await Produce.bulkCreate(produceData);
+    // await Produce.bulkCreate(produceData);
     
 };
 
