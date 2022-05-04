@@ -34,16 +34,9 @@ app.set ('view engine', 'handlebars');
 // set port
 app.set ('port', (process.env.PORT || 3001));
 
-// NEED TO BUILD ROUTE FOR ONBOARD/LOGIN:::::
-// app.use (express.static(path.join(__dirname,'public')));
-// app.get('/', function(req,res){
-//   res.render('onboard');
-// })
-
-
-app.use (express.static('public'));
+app.use (express.static(path.join(__dirname,'public')));
 app.get('/', function(req,res){
-  res.render('main');
+  res.render('login');
 })
 
 app.use(routes);
