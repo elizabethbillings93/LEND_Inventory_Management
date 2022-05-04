@@ -13,7 +13,7 @@ Products.init(
             allowNull: false,
             autoIncrement: true,
         },
-        product_name: {
+        name: {
             type: DataTypes.STRING,
             allowNull: false
         },
@@ -34,12 +34,7 @@ Products.init(
                 key: 'id',
             },
 
-        },
-        quantity: {
-            type: DataTypes.INTEGER,
-            allowNull: false,            
-        },
-
+        }
     }, 
     {
         sequelize,
