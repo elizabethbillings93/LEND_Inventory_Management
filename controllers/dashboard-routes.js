@@ -5,7 +5,6 @@ router.get('/products', (req, res) => {
     console.log('Products is working')
     
 })
-    .then();
 
 router.get('/products/:id', (req, res) => {
     console.log('Products with id params is working')
@@ -17,4 +16,4 @@ router.get('products/:id/:productid', (req, res) => {
 
 // router.post()
 
-module.exports = dashboardRouter; 
+module.exports = router; 
