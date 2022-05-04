@@ -19,12 +19,12 @@ body{
 }
 .main-box{
     margin-top: 40px;
-    justify-content: center;
+    margin: auto;
     border:solid #103050 10px;
     border-radius: 5px;
     padding: 20px;   
     box-sizing: border-box;
-    width: 100%;
+    width: fit-content;
 }
 .employee-box{
     background-color: #F0F2F3;
@@ -60,13 +60,13 @@ body{
 } 
 .pantry-box{
     border:solid #103050 6px;
-    padding:30px;
+    padding:20px;
     
 }
 .main-box input{
-    size: 30px 30 30;
     background-color: rgb(231, 231, 231);
     align-items: right;
+    width: 40px;
 }
 .product-items img{
     border:solid black;
