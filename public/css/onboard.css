@@ -1,0 +1,18 @@
+.box{
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+button{
+    background-color: #103050;
+    color:white;
+    width: 80px;
+    font-size: 20px;
+}
+input{
+    padding-right: 110px;
+    height: 20px;
+}
