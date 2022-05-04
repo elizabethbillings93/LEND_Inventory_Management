@@ -7,8 +7,8 @@ header{
     padding: 10px;
 }
 h1{
-    font-size: 40px;
-    letter-spacing: 20px;
+    font-size: 60px;
+    letter-spacing: 40px;
     color: white;
 }
 h4{
@@ -22,6 +22,9 @@ body{
     justify-content: center;
     border:solid #103050 10px;
     border-radius: 5px;
+    padding: 20px;   
+    box-sizing: border-box;
+    width: 100%;
 }
 .employee-box{
     background-color: #F0F2F3;
@@ -37,7 +40,7 @@ body{
     padding-bottom: 20px;
     display:flex;
     justify-content: space-evenly;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
  .produce-box{
@@ -135,11 +138,25 @@ body{
     padding-bottom: 10px
 }
 .onboardform{
-    
     padding-left: 30px;
     padding-bottom: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .onboardform input{
     padding-right: 50px;
+}
+.loginbtn{
+    text-decoration: underline;
+    color:#103050;
+    padding-right: 10px;
+}
+.onboardbtn{
+    text-decoration: underline;
+    color: #103050;
+    padding-left: 10px;
+}
+nav{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:20px;
 }
