@@ -25,6 +25,7 @@ body{
     padding: 20px;   
     box-sizing: border-box;
     width: fit-content;
+    background-color: #fdfeff;
 }
 .employee-box{
     background-color: #F0F2F3;
