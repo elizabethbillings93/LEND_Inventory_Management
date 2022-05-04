@@ -1,8 +1,8 @@
 const sequelize = require('../config/connection');
-const { Products, Catagories, Employee} = require('../models');
-
-const productData = require('./products-seeds');
-const catagoryData = require('./category-seeds');
+const {  Employee} = require('../models');
+// Products, Catagories,
+// const productData = require('./products-seeds');
+// const catagoryData = require('./category-seeds');
 const employeeData = require('./employee.json');
 
 
@@ -16,9 +16,9 @@ const seedDatabase = async () => {
       returning: true,
     });
 
-    await Catagories.bulkCreate(catagoryData);
+    // await Catagories.bulkCreate(catagoryData);
 
-    await Products.bulkCreate(productData);
+    // await Products.bulkCreate(productData);
 
 };
 

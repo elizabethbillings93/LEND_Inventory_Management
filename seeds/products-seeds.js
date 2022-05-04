@@ -1,6 +1,4 @@
-const { Product } = require("../models");
-
-const productData = [
+[
   //Dairy Products//
   {
     name: "Milk",
