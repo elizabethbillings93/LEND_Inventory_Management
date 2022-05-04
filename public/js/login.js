@@ -5,7 +5,7 @@ const login = async (event) => {
     const email = $('#email-login').val();
     const password = $('#password-login').val();
   
- 
+    console.log(email, password);
 
     if (email && password) {
     //   Send a POST request to the API endpoint
@@ -29,6 +29,6 @@ const login = async (event) => {
 };
   
 
-const loginBtn = $("#login")
+const loginForm = $('.form')
 
-loginBtn.click(login)
+loginForm.submit(login)
