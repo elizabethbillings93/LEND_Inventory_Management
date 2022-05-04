@@ -7,7 +7,7 @@
 			"product_id": "3",
 			"image_link":"https://www.meijer.com/content/dam/meijer/product/0004/12/5010/20/0004125010200_2_A1C1_1200.png"
 		},
-=======
+		{
 		"name": "Milk",
 		"quantity": 10,
 		"product_id": 3 
@@ -23,7 +23,8 @@
 			"image_link":"https://thumbs.dreamstime.com/b/swiss-cheese-holes-18911609.jpg"
 
 		},
-=======
+		{
+
 		"name": "Cheese",
 		"quantity": 10,
 		"product_id": 3 
@@ -87,8 +88,8 @@
 			"quantity": "10",
 			"product_id": "3",
 			"image_link":"https://api.time.com/wp-content/uploads/2015/07/eggnog_vert.jpg"
-		}
-=======
+		},
+{
 		"name": "Yogurt",
 		"quantity": 10,
 		"product_id": 3 
