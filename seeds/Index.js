@@ -1,8 +1,7 @@
 const sequelize = require('../config/connection');
-const { Products, Dairy, Employee, Meat, Pantry, Produce } = require('../models');
+const { Products, Categories, Employee} = require('../models');
 
 const productsData = require('./products.json');
-const dairyData = require('./dairy.json');
 const employeeData = require('./employee.json');
 const meatData = require('./meat.json');
 const pantryData = require('./pantry.json');

@@ -288,12 +288,8 @@
 			"quantity": "10",
 			"product_id": "1",
 			"image_link":"https://idsb.tmgrup.com.tr/ly/uploads/images/2021/08/03/133396.jpeg"
-		}
-	
-=======
-		"quantity": 10,
-		"product_id": 1
-	},
+		},
+
 	{
 		"name": "Lettuce",
 		"quantity": 10,
