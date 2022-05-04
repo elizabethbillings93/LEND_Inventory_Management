@@ -27,6 +27,6 @@ const login = async (event) => {
 };
   
 
-const loginForm = $('.form')
+const loginForm = $('.loginform')
 
 loginForm.submit(login)

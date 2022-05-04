@@ -35,6 +35,8 @@ app.set ('view engine', 'handlebars');
 app.set ('port', (process.env.PORT || 3001));
 
 app.use (express.static(path.join(__dirname,'public')));
+
+
 app.get('/', function(req,res){
   res.render('login');
 })
