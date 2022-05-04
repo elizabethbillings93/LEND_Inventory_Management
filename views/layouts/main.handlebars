@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang='en'>
- <head>
-  <meta charset="UTF-8">
-  <title>LEND</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-  <div>
-    <header class= "top-header">
-      <h1>LEND</h1>
-      <h4>Inventory Management</h4>
-    </header>
-    <body>
+  <head>
+    <meta charset="UTF-8">
+    <title>LEND</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+
+  <body>
+    <div>
+      <header class= "top-header">
+        <h1>LEND</h1>
+        <h4>Inventory Management</h4>
+        <nav>
+        {{#if logged_in}}
+        <a href="/inventory">Manage Inventory</a> |
+        <button id="logout">logout</button>
+        {{else}}
+        <a href="/api/emp/login">login</a>
+        <a href="/api/emp/onboard">Onboard</a>
+        {{/if}}
+      </nav>
+      </header>
+      
       <main class="main-box">
         {{{body}}}
       </main>
-    </body> 
-  </div>
+    </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+      <script src="/js/logout.js"></script>  
+  </body>  
 </html>
 
 
