@@ -11,11 +11,10 @@ app.set ('view engine', 'handlebars');
 // set port
 app.set ('port', (process.env.PORT || 3001));
 
+
 app.use (express.static(path.join(__dirname,'public')));
 app.get('/', function(req,res){
-  res.render('login');
+  res.render('onboard');
 })
 
-app.listen(app.get ('port'), function (){
-  console.log ('Server is listening')
-})
+
