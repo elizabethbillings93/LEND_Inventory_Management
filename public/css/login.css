@@ -1,16 +1,22 @@
-.form{
+.loginform{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    padding: 10px;
 }
-label{
-    margin-right: 10px;
-}
+
 button{
     background-color: #103050;
     color:white;
-    padding: 10px ;
     font-size: 20px;
+  
+    
 }
 input{
-    
+    align-items: center;
+    display:flex;
+    padding-right: 100px;
+    margin-top: 10px;
+}
+p{
+    text-align: left;
 }
