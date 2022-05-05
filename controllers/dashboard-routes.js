@@ -25,13 +25,16 @@ router.get('/products', withAuth, async (req, res) => {
         const employeeData = await Employee.findByPk(req.session.user_id,{
             attributes: { exclude: ['password'] },           
         });
-    
     const employee = employeeData.get({ plain: true});
-
     res.render('inventory', {
         ...employee,
-        logged_in: true
+        logged_in: true 
     });
+
+    const categoryData = await Categories.findAll()
+
+    const categories = categoryData.map((cataegory) => cataegory.get({plain: true}));
+    res.render('inventory', {categories})
     } catch (err) {
         res.status(500).json(err);
     }
