@@ -1,13 +1,9 @@
- <div class="employee-box">Employee #</div>
-            <div class="product-items">
-             
-           {{#each category as |category|}}
-            <div class="product-box">
-               <button>{{category.category_name}}</button>
-            </div>
-            {{/each}}
-              
-            
-            
-          </div>
-          <script src= "/js/inventory.js"
+  <div class="employee-box">Employee #</div>
+  {{#each categories as |category|}}
+    <div>
+        <p>
+            <button>{{category.category_name}}</button>
+        </p>
+    </div>
+  {{/each}}
+  </div>
