@@ -2,7 +2,7 @@ const logout = async () => {
     console.log('red')
     const response = await fetch('/api/emp/logout', {
         method: 'Post',
-        hreaders: {'Content-Type': 'application/json'}
+        // headers: {'Content-Type': 'application/json'}
     });
 
     if (response.ok) {
