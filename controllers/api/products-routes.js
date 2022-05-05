@@ -1,5 +1,9 @@
 const router = require('express').Router();
+<<<<<<< HEAD
 const { Categories, Products } = require('../../models')
+=======
+const { Products } = require('../../models')
+>>>>>>> c4910da2beb985b5dfb21b1de973e0324ebb51e5
 
 
 // Update product based on it's name 
