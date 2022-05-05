@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Categories } = require('../../models')
+const { Products } = require('../../models')
 
 
 // Update review name

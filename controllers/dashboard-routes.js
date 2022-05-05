@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const {Categories, Employee, Products} = require('../models');
+const {Categories, Employee, Products } = require('../models');
 const withAuth = require('../utils/auth');
 
 //Redirect to Login
@@ -25,70 +25,86 @@ router.get('/products', withAuth, async (req, res) => {
         const employeeData = await Employee.findByPk(req.session.user_id,{
             attributes: { exclude: ['password'] },           
         });
-
-
         const categoryData = await Categories.findAll()
-   
         const categories = categoryData.map((cataegory) => cataegory.get({plain: true}));
-       
-
-    const employee = employeeData.get({ plain: true});
-    console.log(employee)
-    res.render('inventory', {
-        ...employee,
-        categories,
-        logged_in: true 
-    });
-
-    } catch (err) {
-        res.status(500).json(err);
-    }
-
-
-
-router.get('/meats', withAuth, async(req,res)=> {
-    try {
-        // Find the logged in user based on session ID
-        const employeeData = await Employee.findByPk(req.session.user_id,{
-            attributes: { exclude: ['password'] },           
+        const employee = employeeData.get({ plain: true});
+        res.render('inventory', {
+            ...employee,
+            categories,
+            logged_in: true 
         });
-    const employee = employeeData.get({ plain: true});
-    res.render('meats', {
-        ...employee,
-        logged_in: true 
-    });
-
-    const categoryData = await Categories.findAll()
-
-    const categories = categoryData.map((cataegory) => cataegory.get({plain: true}));
-    res.render('meats', {categories})
-    } catch (err) {
-        res.status(500).json(err);
+        } catch (err) {
+            res.status(500).json(err);
     }
-})
+});
+
+
+router.get('/produce', withAuth, async(req,res)=> {
+    try {
+
+        const productData = await Products.findAll({ where: {product_id: 1 }})
+        const products = productData.map((product) => product.get({plain: true}));
+                console.log(products)
+                res.render('meats', {
+                    products,
+                    logged_in: true 
+                })
+        } catch (err) {
+            res.status(500).json(err);
+        }
+});
+
+router.get('/meat', withAuth, async(req,res)=> {
+    try {
+
+        const productData = await Products.findAll({ where: {product_id: 2 }})
+        const products = productData.map((product) => product.get({plain: true}));
+                console.log(products)
+                res.render('meats', {
+                    products,
+                    logged_in: true 
+                })
+        } catch (err) {
+            res.status(500).json(err);
+        }
+});
 
 router.get('/dairy', withAuth, async(req,res)=> {
     try {
-        // Find the logged in user based on session ID
+        
         const employeeData = await Employee.findByPk(req.session.user_id,{
             attributes: { exclude: ['password'] },           
         });
-    const employee = employeeData.get({ plain: true});
-    res.render('dairy', {
-        ...employee,
-        logged_in: true 
-    });
 
-    const categoryData = await Categories.findAll()
+        const productData = await Products.findAll({ where: {product_id: 3 }})
+        const products = productData.map((product) => product.get({plain: true}));
+                console.log(products)
+                res.render('meats', {
+                    products,
+                    logged_in: true 
+                })
+        } catch (err) {
+            res.status(500).json(err);
+        }
+});
 
-    const categories = categoryData.map((category) => category.get({plain: true}));
-    res.render('dairy', {categories})
-    } catch (err) {
-        res.status(500).json(err);
-    }
-})
+router.get('/pantry', withAuth, async(req,res)=> {
+    try {
+        
+        const employeeData = await Employee.findByPk(req.session.user_id,{
+            attributes: { exclude: ['password'] },           
+        });
 
-
+        const productData = await Products.findAll({ where: {product_id: 4 }})
+        const products = productData.map((product) => product.get({plain: true}));
+                console.log(products)
+                res.render('meats', {
+                    products,
+                    logged_in: true 
+                })
+        } catch (err) {
+            res.status(500).json(err);
+        }
 });
 
 module.exports = router; 
