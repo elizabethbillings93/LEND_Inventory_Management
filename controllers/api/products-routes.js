@@ -5,6 +5,8 @@ const path = require ('path');
 
 // This is the server-side requests. This is for injecting data into the database. 
 
+// Get Product Data and Append to Page 
+
 // Update Products
 router.put('/', async (req, res) => {
 
