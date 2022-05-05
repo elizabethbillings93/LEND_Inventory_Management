@@ -17,7 +17,14 @@ input{
     display:flex;
     width: 90px;
     margin-top: 10px;
+    
 }
 p{
     text-align: left;
+}
+#login{
+    color: white;
+    background-color: #103050;
+    border-radius: 5px;
+    width: 100px;
 }
