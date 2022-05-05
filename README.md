@@ -24,7 +24,7 @@ Once an account is created, you will be directed to the Inventory Control Page w
 
 # Built With:
   -jQuery
-  -Mysql2
+  -MySQL2
   -Node
   -JavaScript
   -CSS
@@ -36,5 +36,5 @@ Once an account is created, you will be directed to the Inventory Control Page w
   # Credits
     -Elizabeth Billings (Handlebars, CSS, Javascript) GITHUB: (https://github.com/elizabethbillings93/)
     -Lamont Barnet (schema, seeds)GITHUB: (https://github.com/sirmojosodope)
-    -Greg Gardiner(Javascript)GITHUB: (https://github.com/Dgardi)
+    -David Gardiner(Javascript)GITHUB: (https://github.com/Dgardi)
     -Noah Gaston(Routes,Javascript)GITHUB: (https://github.com/LILWill13)
