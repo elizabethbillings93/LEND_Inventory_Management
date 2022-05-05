@@ -17,9 +17,10 @@ const login = async (event) => {
 
   
       if (response.ok) {
-        document.location.replace('');
-      } else {
-        alert(response.statusText);
+        // If successful, redirect the browser to products page
+        document.location.replace('/products');
+      // } else {
+      //   alert(response.statusText);
       }
     } else {
         alert("Information invalid, Please try again");
