@@ -3,10 +3,10 @@ const {Categories, Products} = require('../../models')
 const hnb = require('handlebars');
 const path = require ('path');
 
-// The /api/products endpoint
+// This is the server-side requests. This is for injecting data into the database. 
 
-// Get All Products
-router.get('/', async (req, res) => {
+// Update Products
+router.put('/', async (req, res) => {
 
   const productsData =  await Products.findAll({include: [Categories]})
     // .then((products => res.json(products)))
@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
     res.render('inventory', { products });
 });
 
-// //! Everything below is Work in Progress
+
 // // Get One Product 
 // router.get('products/:id', (req, res) => {
 //     Products.findOne({

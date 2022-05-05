@@ -1,5 +1,12 @@
 [
   {
+    "first_name": "TestName",
+    "last_name": "TestLast",
+    "email": "test",
+    "phone_number": "0000000000",
+    "password": "test"
+  },
+  {
     "first_name": "Lamont",
     "last_name": "last name",
     "email": "stoverlee29@gmail.com",
