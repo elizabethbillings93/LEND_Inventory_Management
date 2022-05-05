@@ -1,9 +1,9 @@
 const categoryBtn = $('button');
 
 const renderProducts = async (event) => { 
-    category = event.target.textContent;
-
-    
+    event.preventDefault();
+    category = event.target.textContent.toLowerCase();
+    document.location.replace(`/${category}`)
 };
 
 
