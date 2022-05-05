@@ -1,27 +1,34 @@
 const router = require('express').Router();
-const { Categories } = require('../../models')
+const { Categories, Products } = require('../../models')
 
 
-// Update review name
-// router.put('/dairy', (req, res) => {
-//   const sql = `UPDATE categories SET quantity = ? WHERE id = 3`;
-//   const params = [req.body.categories, req.params.product_id];
+// Update product based on it's name 
+router.put('/products/:name', (req, res) => {
+//Calls the update method on the Products model
+Products.update(
+    {
+        //All fields you can update and the data attached to the request body
+        id,
+        name,
+        quantity: req.body.quantity,
+        image_link,
+        product_id,
+    },
+    {
+        // Gets the product based on the name given in the request parameters
+        where: {
+            name: req.params.name,
+        },
+    }
+)
+    .then((updatedQuantity) => {
+        //sends the updated quantity as a json response
+        res.json(updatedQuantity);
+        console.log("Successfully updated quanity")
+    })
+    .catch((err) => res.json(err));
+});
 
-//   db.query(sql, params, (err, result) => {
-//     if (err) {
-//       res.status(400).json({ error: err.message });
-//     } else if (!result.affectedRows) {
-//       res.json({
-//         message: 'Movie not found'
-//       });
-//     } else {
-//       res.json({
-//         message: 'success',
-//         data: req.body,
-//         changes: result.affectedRows
-//       });
-//     }
-//   });
-// });
+
 
 module.exports = router;
