@@ -1,0 +1,10 @@
+ <div class="employee-box">Employee #</div>
+            <div class="product-items">
+                   {{#each meat as |meat|}}
+                <div class="product-header">{{category_name}}</div>
+            <div class="product-description">{{meat.name}}</div>
+            <img class="product-image">{{meat.image}}
+            <input class="product-count" style="width 150px;">{{meat.quantity}}
+                     {{/each}}
+          </div>
+          <script src= "/js/inventory.js"
