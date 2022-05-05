@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const {Categories, Employee, Products} = require('../models');
+const {Categories, Employee } = require('../models');
 const withAuth = require('../utils/auth');
 
 //Redirect to Login

@@ -17,6 +17,9 @@ h4{
 body{
     background-color: #F0F2F3;
 }
+#manage{
+    color:#103050;
+}
 .main-box{
     margin-top: 40px;
     margin: auto;
@@ -29,9 +32,7 @@ body{
 }
 .employee-box{
     background-color: #F0F2F3;
-    position:absolute;
     border: solid #71B1C5 10px;
-    margin: 10px;
     padding: 2px;
     padding-right: 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -149,15 +150,34 @@ body{
 .loginbtn{
     text-decoration: underline;
     color:#103050;
-    padding-right: 10px;
+    
+    border-radius: 5px;
+    width: 200px;
 }
 .onboardbtn{
     text-decoration: underline;
     color: #103050;
     padding-left: 10px;
+    
 }
 nav{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin:20px;
+}
+.category-list{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.category-list button{
+    color: white;
+    background-color: #103050;
+    border-radius: 5px;
+    width: 200px;
+}
+#logout{
+    color: white;
+    background-color: #103050;
+    border-radius: 5px;
+    width: 200px;
 }
