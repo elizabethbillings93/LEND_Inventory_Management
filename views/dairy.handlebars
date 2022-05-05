@@ -1,10 +1,10 @@
  <div class="employee-box">Employee #</div>
             <div class="product-items">
                 
-            {{#each dairy as |dairy|}}
-                <div class="product-header">{{category_name}}</div>
+            {{#each categoryData}}
+            <div class="product-header">{{category_name}}</div>
             <div class="product-description">{{dairy.name}}</div>
-            <img class="product-image">{{dairy.image}}
+            <img class="product-image">{{dairy.image}}>
             <input class="product-count" style="width 150px;">{{dairy.quantity}}
             {{/each}}
 </div>
