@@ -44,7 +44,6 @@ router.get('/produce', withAuth, async(req,res)=> {
 
         const productData = await Products.findAll({ where: {product_id: 1 }})
         const products = productData.map((product) => product.get({plain: true}));
-                console.log(products)
                 res.render('meats', {
                     products,
                     logged_in: true 
@@ -71,14 +70,9 @@ router.get('/meat', withAuth, async(req,res)=> {
 
 router.get('/dairy', withAuth, async(req,res)=> {
     try {
-        
-        const employeeData = await Employee.findByPk(req.session.user_id,{
-            attributes: { exclude: ['password'] },           
-        });
-
         const productData = await Products.findAll({ where: {product_id: 3 }})
         const products = productData.map((product) => product.get({plain: true}));
-                console.log(products)
+    
                 res.render('meats', {
                     products,
                     logged_in: true 
@@ -90,14 +84,8 @@ router.get('/dairy', withAuth, async(req,res)=> {
 
 router.get('/pantry', withAuth, async(req,res)=> {
     try {
-        
-        const employeeData = await Employee.findByPk(req.session.user_id,{
-            attributes: { exclude: ['password'] },           
-        });
-
         const productData = await Products.findAll({ where: {product_id: 4 }})
         const products = productData.map((product) => product.get({plain: true}));
-                console.log(products)
                 res.render('meats', {
                     products,
                     logged_in: true 

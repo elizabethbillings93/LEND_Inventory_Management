@@ -6,7 +6,6 @@ const createEmployee =  async (event) => {
     const phone_number = document.getElementById('phonenumber').value;
     const email = document.getElementById('emailinput').value;
     const password = document.getElementById('passwordinput').value;
-    console.log( first_name, last_name, phone_number, email, password)
     if( first_name && last_name && phone_number && email && password ){
         const response = await fetch('/api/emp/onboard', {
             method: 'POST',

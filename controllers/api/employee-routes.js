@@ -50,7 +50,12 @@ router.post('/logout', (req, res) => {
 
 
 router.get('/onboard', (req, res) => {
-  res.render('onboard')
+  if (req.session.logged_in ) {
+    res.render('onboard', {
+      logged_in: true
+    });
+  };
+  res.render('login')
 });
 router.post('/onboard', (req, res) => {
   try{
