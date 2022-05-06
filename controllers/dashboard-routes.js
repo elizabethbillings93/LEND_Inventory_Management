@@ -107,4 +107,8 @@ router.get('/pantry', withAuth, async(req,res)=> {
         }
 });
 
+router.get('/logout', (req, res) => {
+ res.render('login')  
+})
+
 module.exports = router; 

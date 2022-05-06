@@ -51,5 +51,16 @@ router.get('/onboard', (req, res) => {
   res.render('onboard')
 });
 
+router.post('/onboard', (req, res) => {
+  try{
+    Book.create({
+     
+    })
+
+  } catch (err) {
+    res.status(500).json(err);
+  };
+});
+
 
 module.exports = router;
