@@ -1,3 +1,7 @@
+const warning = require('warning')
+
+
+
 const login = async (event) => {
     event.preventDefault();
   
@@ -19,11 +23,12 @@ const login = async (event) => {
       if (response.ok) {
         // If successful, redirect the browser to products page
         document.location.replace('/products');
+        alert("You are now logged in")
       // } else {
       //   alert(response.statusText);
       }
     } else {
-        alert("Information invalid, Please try again");
+        warning("Information invalid, Please try again");
     };
 };
   
