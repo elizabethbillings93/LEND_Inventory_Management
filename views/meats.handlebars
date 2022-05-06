@@ -1,9 +1,21 @@
-                    <h1>meats</h1>
+          
+                 <link rel="stylesheet" href="/css/products.css">
+            
             <div class="product-items">
+                   
                    {{#each products}}
-            <div class="product-description">{{name}}</div>
-            <img class="product-image" src="{{image_link}}" width="200" height="200" >
-            <input class="product-count" style="width 150px;">{{quantity}}
+                   <div id="list">
+             <img class="product-image" src="{{image_link}}" >
+           
+             <p class="product-description">{{name}}</p>
+            
+            <input class="product-count" placeholder="{{quantity}}" >
+                  </div>
                      {{/each}}
-          </div>
+              </div>         
+                  
+                   
+           
+              
+        
           

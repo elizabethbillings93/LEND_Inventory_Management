@@ -4,6 +4,7 @@ const sequelize = require('../config/connection');
 
 class Products extends Model {}; 
 
+
 // Fields & Rules for Product model
 Products.init(
     {

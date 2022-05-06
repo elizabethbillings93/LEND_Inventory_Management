@@ -1,10 +1,17 @@
- 
+          
+                 <link rel="stylesheet" href="/css/products.css">
+            
             <div class="product-items">
-                 {{#each pantry as |pantry|}}
-                <div class="product-header">{{category_name}}</div>
-            <div class="product-description">{{pantry.name}}</div>
-            <img class="product-image">{{pantry.image}}
-            <input class="product-count" style="width 150px;">{{pantry.quantity}}
-            {{/each}}
-          </div>
-   
+                   
+                   {{#each products}}
+                   <div id="list">
+             <img class="product-image" src="{{image_link}}" >
+           
+             <p class="product-description">{{name}}</p>
+            
+            <input class="product-count" placeholder="{{quantity}}" >
+                  </div>
+                     {{/each}}
+              </div>         
+                  
+                   

@@ -1,0 +1,28 @@
+.product-image{
+    height: 100px;
+    width: 100px;
+     
+    margin-bottom: 3px;
+}
+
+.product-description{
+   margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.product-count{
+    height: 30px;
+    width: 30px;
+    margin-top:30px;
+}
+.product-items{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+    width:fit-content;
+}
+#list{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
