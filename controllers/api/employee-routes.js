@@ -52,6 +52,23 @@ router.post('/logout', (req, res) => {
 router.get('/onboard', (req, res) => {
   res.render('onboard')
 });
+router.post('/onboard', (req, res) => {
+  try{
+    Employee.create({
+    first_name: req.body.first_name,
+    last_name: req.body.last_name,
+    manager_id: 1,
+    email: req.body.email,
+    phone_number: req.body.phone_number,
+    password: req.body.password,
+    })
+    .then((newEmployee) => {
+      res.json(newEmployee)
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  };
+});
 
 
 module.exports = router;

@@ -16,11 +16,14 @@
         <nav>
         {{#if logged_in}}
         <a href="/products" id="manage">Manage Inventory</a> |
-        <button id="logout">Logout</button>
-        <button id="backbtn">Back</button>
-        {{else}}
-        {{!-- <a href="/login" class="loginbtn">Login</a> --}}
-        <a href="/api/emp/onboard" class="onboardbtn">New Employee</a>
+      
+       <button id="logout">Logout</button>
+         {{#if manager_id}}
+            {{else}}
+            <br>
+            <br>
+            <a href="/api/emp/onboard" class="onboardbtn">Add Employee</a>
+          {{/if}}
         {{/if}}
       </nav>
      
@@ -29,8 +32,7 @@
         {{{body}}}
       </main>
     </div>
-      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-      <script src="/js/logout.js"></script>  
+     <script src="/js/logout.js"></script>  
   </body>  
 </html>
 
