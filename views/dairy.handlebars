@@ -1,17 +1,11 @@
-          
-                 <link rel="stylesheet" href="/css/products.css">
-            
-            <div class="product-items">
-                   
-                   {{#each products}}
-                   <div id="list">
-             <img class="product-image" src="{{image_link}}" >
-           
-             <p class="product-description">{{name}}</p>
-            
-            <input class="product-count" placeholder="{{quantity}}" >
-                  </div>
-                     {{/each}}
-              </div>         
-                  
-                   
+<link rel="stylesheet" href="/css/products.css">   
+<div class="product-items"> 
+      {{#each products}}
+            <div id="list">
+                  <img class="product-image" src="{{image_link}}" > 
+                  <p class="product-description">{{name}}</p>            
+                  <input class="product-count" placeholder="{{quantity}}" >
+            </div>
+      {{/each}}
+</div>         
+   

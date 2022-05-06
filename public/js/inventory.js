@@ -7,16 +7,8 @@ const renderProducts = async (event) => {
     document.location.replace(`/${category}`)
 };
 
-
-// Target the text content of product-count classes.
-const updateCounts = async (event) => {
-    event.preventDefault();
-    var keypressed = event.keyCode
-    console.log(keypressed)
-}
-
 categoryBtn.click(renderProducts)
 
-// Run updateCounts on key press. 
-prodCount.onkeypress(updateCounts)
+
+console.log('red')
 
