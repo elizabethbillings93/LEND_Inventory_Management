@@ -4,6 +4,7 @@ const { Employee } = require('../../models');
 
 
 
+
 router.post('/login', async (req, res) =>{
     try {
         const employeeData = await Employee.findOne({ where: { email: req.body.email } });
@@ -11,6 +12,7 @@ router.post('/login', async (req, res) =>{
         if (!employeeData) {
           res.status(400)
             .json({ message: 'Incorrect email or password, please try again' });
+            
           return;
         }
     
