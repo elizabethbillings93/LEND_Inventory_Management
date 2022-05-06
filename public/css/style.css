@@ -26,9 +26,9 @@ body{
     border:solid #103050 10px;
     border-radius: 5px;
     padding: 20px;   
-    box-sizing: border-box;
     width: fit-content;
     background-color: #fdfeff;
+ 
 }
 .employee-box{
     background-color: #F0F2F3;
@@ -37,18 +37,12 @@ body{
     padding-right: 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.product-items{
-    padding-top:80px;
-    padding-bottom: 20px;
-    display:flex;
-    justify-content: space-evenly;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}
+
  .produce-box{
     border:solid #103050 6px;
     border-radius: 5px;
     padding:30px;
+
 } 
  .meats-box{
     border:solid #103050 6px;
@@ -65,80 +59,8 @@ body{
     padding:20px;
     
 }
-.main-box input{
-    background-color: rgb(231, 231, 231);
-    align-items: right;
-   
-}
-.product-items img{
-    border:solid black;
-    
-}
-#produce1{
-    display:flex;
-    padding-bottom: 10px;
-}
-#produce2{
-    display:flex;
-    padding-bottom: 10px
-}
-#produce3{
-    display:flex;
-    padding-bottom: 10px
-}
-#produce4{
-    display:flex;
-    padding-bottom: 10px
-}
 
-#meats1{
-    display:flex;
-    padding-bottom: 10px
-}
-#meats2{
-    display:flex;
-    padding-bottom: 10px
-}
-#meats3{
-    display:flex;
-    padding-bottom: 10px
-}
-#meats4{
-    display:flex;
-    padding-bottom: 10px
-}
-#pantry1{
-    display:flex;
-    padding-bottom: 10px
-}
-#pantry2{
-    display:flex;
-    padding-bottom: 10px
-}
-#pantry3{
-    display:flex;
-    padding-bottom: 10px
-}
-#pantry4{
-    display:flex;
-    padding-bottom: 10px
-}
-#dairy1{
-    display:flex;
-    padding-bottom: 10px
-}
-#dairy2{
-    display:flex;
-    padding-bottom: 10px
-}
-#dairy3{
-    display:flex;
-    padding-bottom: 10px
-}
-#dairy4{
-    display:flex;
-    padding-bottom: 10px
-}
+
 .onboardform{
     padding-left: 30px;
     padding-bottom: 30px;
@@ -180,4 +102,11 @@ nav{
     background-color: #103050;
     border-radius: 5px;
     width: 200px;
+}
+#backbtn{
+
+        color: white;
+        background-color: #103050;
+        border-radius: 5px;
+        width: 50px;
 }

@@ -1,11 +1,17 @@
-
+          
+                 <link rel="stylesheet" href="/css/products.css">
+            
             <div class="product-items">
-                
-            {{#each produce as |produce|}}
-                <div class="product-header">{{category_name}}</div>
-            <div class="product-description">{{produce.name}}</div>
-            <img class="product-image">{{produce.image}}
-            <input class="product-count" style="width 150px;">{{produce.quantity}}
-            {{/each}}
-          </div>
-    
+                   
+                   {{#each products}}
+                   <div id="list">
+             <img class="product-image" src="{{image_link}}" >
+           
+             <p class="product-description">{{name}}</p>
+            
+            <input class="product-count" placeholder="{{quantity}}" >
+                  </div>
+                     {{/each}}
+              </div>         
+                  
+                   
