@@ -1,15 +1,15 @@
 const router = require('express').Router();
-<<<<<<< HEAD
-const { Categories, Products } = require('../../models')
-=======
 const { Products } = require('../../models')
->>>>>>> c4910da2beb985b5dfb21b1de973e0324ebb51e5
 
 
 // Update product based on it's name 
-router.put('/products/:name', (req, res) => {
+router.put('/products', (req, res) => {
 //Calls the update method on the Products model
-Products.update(
+Products.update(req.body, {
+    where: {
+        quantity: req.params.quantity
+    }
+},
     {
         //All fields you can update and the data attached to the request body
         id,
