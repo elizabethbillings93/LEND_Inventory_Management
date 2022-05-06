@@ -45,14 +45,14 @@ Employee.init(
             type: DataTypes.INTEGER,
             allowNull: false,
             validate:{
-                leng: [10],
+                len: [10],
             },
         },
         password: {
             type: DataTypes.STRING,
             allowNull: false,
             validate:{
-                leng: [8],
+                len: [8],
             },
         },
     }, 
