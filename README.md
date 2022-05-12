@@ -32,7 +32,9 @@ Once an account is created, you will be directed to the Inventory Control Page w
   -Warning
   -Express
   
-  
+ #Deployed Site:
+https://lend-database.herokuapp.com/login
+ 
   # Credits
     -Elizabeth Billings (Handlebars, CSS, Javascript) GITHUB: (https://github.com/elizabethbillings93/)
     -Lamont Barnet (schema, seeds)GITHUB: (https://github.com/sirmojosodope)
