@@ -10,5 +10,5 @@ const renderProducts = async (event) => {
 categoryBtn.click(renderProducts)
 
 
-console.log('red')
-
+console.log('red');
+console.log('working')
