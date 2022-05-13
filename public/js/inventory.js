@@ -11,4 +11,4 @@ categoryBtn.click(renderProducts)
 
 
 console.log('red');
-console.log('working')
+console.log('WORKING')
