@@ -53,3 +53,4 @@ sequelize.sync({ force: false }).then(() => {
 });
 
 // heroku
+// heroku try again
